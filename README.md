@@ -7,7 +7,7 @@ A QR Code Generator.</br>
 </p>
 
 <p>
-Note : Here <b>bq</b> stands for Barcode and QR Code not <b>69</b> (Sixty Nine).
+Note : Here <b>bq</b> stands for Barcode and QR Code and not for <b>69</b> (Sixty Nine).
 </p>
 
 <p>
