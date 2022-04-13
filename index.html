@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Ritik Patle's bq Scanner">
+  <meta name="keywords"
+    content="Ritik,Ritik Patle,Writer,Web Developer,Programmer,Flutter Developer,Javascript,Katangi,Bhopal,Madhya Pradesh,MP,Flutter,e-Dastak,VSS,Vikas Samvad Samiti,VSSMP,bq Scanner, QR Code, Scanner, Barcode, Generator, Reader">
+  <meta name="author" content="Ritik Patle">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="./statics/style.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" media="all">
+
+
+  <title>bq Scanner | Ritik Patle</title>
+
+</head>
+
+<body>
+  <header>
+    <a href="https://ritik-patle.web.app" class="brand">bq Scanner</a>
+    <div class="menu-btn"></div>
+  </header>
+
+  <section class="about bgsetterone" id="about">
+    <div class="title">
+      <h2 class="section-title">About Application</h2>
+    </div>
+    <div class="content">
+      <div class="column col-left">
+        <div class="img-card">
+          <img src="./statics/logo.png" alt="">
+        </div>
+      </div>
+      <div class="column col-right" style="align-self: center;">
+        <h2 class="content-title">bq Scanner</h2>
+
+        <p class="normal-paraabtm">
+          <strong class="strhed">Developed by :</strong> Ritik Patle<br><br>
+          <strong class="strhed">Application Type :</strong> Android<br><br>
+          <strong class="strhed">Description :</strong> A Barcode and QR Code, scanner and generator.<br><br>
+          <strong class="strhed">Technology Used:</strong> Flutter<br><br>
+        </p>
+
+        <div class="buttonz">
+          <a href="https://ritik-patle.web.app"><button class="btn"><i class="fab fa fa-globe"></i> | Ritik's
+              Portfolio</button></a>
+          <a href="https://github.com/RitikPatle/bqscanner"><button class="btn"><i class="fab fa-github-square"></i> |
+              Source Code</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <div class="spherez bgsettertwo" style="display: flex;justify-content: center;">
+      <span class="Sphere"></span>
+    </div>
+  
+
+  <footer class="footer">
+    <span class="footer-title">Ritik Patle</span>
+  </footer>
+
+  <script src="./statics/style.js"></script>
+  <script>
+    // Rotating Sphere Text
+    const Texts = [
+    "bq","*","69",
+    "#","69","bq",
+    "69","bq","$",
+    "bq","*","69",
+    "#","69","bq",
+    "69","bq","$",
+    ];
+    let width;
+    let details = navigator.userAgent;
+
+    let regexp = /android|iphone|kindle|ipad/i;
+
+    let isMobileDevice = regexp.test(details);
+
+    if (isMobileDevice) {
+        width = window.innerWidth / 2.5;
+    } else {
+        width = window.innerWidth / 5;
+    }
+
+    var tagCloud = TagCloud('.Sphere', Texts, {
+
+        // Sphere radius in px
+        // radius: 250,
+        radius: width,
+
+        // animation speed
+        // slow, normal, fast
+        maxSpeed: 'normal',
+        initSpeed: 'fast',
+
+        // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
+        // direction: 135,
+        direction: 90,
+
+        // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+        keep: true
+
+    });
+
+    // Giving color to each text in sphere
+    // var color = '#FF5733 ';
+    let color = '#ffffff';
+    document.querySelector('.Sphere').style.color = color;
+</script>
+
+</body>
+
+</html>
