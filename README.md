@@ -4,7 +4,7 @@ A Barcode Scanner.</br>
 A QR Code Scanner.</br>
 A Barcode Generator.</br>
 A QR Code Generator.</br>
-Visit bq Scanner at https://ritikpatle.github.io/bqscanner/
+Visit bq Scanner at https://ritikpatle.github.io/bqscanner/ <br><br>
 Visit bq Scanner's Policies at https://sites.google.com/view/bqscanner/
 </p>
 
